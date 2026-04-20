@@ -1,0 +1,60 @@
+body {
+    font-family: Arial;
+    background: lightblue;
+    padding: 20px;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.subjects {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subjects a {
+    margin: 5px;
+    padding: 8px 15px;
+    background: blue;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.3s;
+}
+
+/* 🔥 Tilt effect on hover */
+.subjects a:hover {
+    transform: rotate(8deg);
+}
+
+.question {
+    margin: 10px 0;
+}
+
+input, textarea {
+    width: 100%;
+}
+
+/* 🔵 Blue submit button */
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Optional hover for button */
+button:hover {
+    background: darkblue;
+}
