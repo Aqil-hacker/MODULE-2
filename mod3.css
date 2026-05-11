@@ -1,0 +1,27 @@
+body {
+    background: linear-gradient(to right, black, red);
+    color: white;
+}
+
+.container-box {
+    background: black;
+    padding: 30px;
+    border-radius: 15px;
+    margin-top: 40px;
+}
+
+.nav-link {
+    transition: 0.3s;
+    color: red !important;
+}
+
+.nav-link:hover {
+    background-color: red;
+    color: black !important;
+    transform: scale(1.05);
+}
+
+.emoji {
+    font-size: 20px;
+    margin-left: 10px;
+}
